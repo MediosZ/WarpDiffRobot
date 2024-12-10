@@ -1,0 +1,31 @@
+trajectory: 'robotis_2_hard_ball'
+ckpt: null
+ckpt_idx: -2
+urdf: 'open_manipulator/open_manipulator_joint2_only_v2'
+output_obj: False
+training:
+  train_iters: 15
+  train_rate: 0.01
+  mass_diff_config: 'cup_diff_none'
+  load_file_path_overwrite: './assets/real_data.pt'
+  compare_indices_predictions: [-1, null, 1]
+  compare_indices_targets: [35, 36, 1]
+  loss_type: null
+sim:
+  mass_diff: null
+  initialization_filename: './assets/dyn_0000.pt'
+  gravity: -9.81
+  frame_dt: 0.0166666666
+  density: -1
+  armature: 0.01
+  episode_duration: 0.6
+  sim_substeps: 5
+  collapse_fixed_joints: False
+  ignore_inertial_definitions: False
+  parse_visuals_as_colliders: True
+  modify_object_type: 'hard_ball'
+  update_mass_matrix_every: -1
+  is_colliding: False
+  requires_grad: True
+render:
+  every_n_frame: 1
