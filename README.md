@@ -2,7 +2,12 @@
 
 ![teaser figure](./assets/teaser.png)
 
-A framework that calibrates object properties through differentiable simulations of robot-object interactions.
+This repository is the official implementation of the paper:
+
+> **[Learning Object Properties Using Robot Proprioception via Differentiable Robot-Object Interaction]([https://arxiv.org/abs/2206.02607](https://arxiv.org/abs/2410.03920))**  
+> [Peter Yichen Chen](https://peterchencyc.com), [Chao Liu](https://chaoliu.tech), [Pingchuan Ma](https://pingchuan.ma), [John Eastman](http://redsweatshirt.github.io), [Daniela Rus](https://danielarus.csail.mit.edu), [Dylan Randle](https://dylanrandle.github.io), [Yuri Ivanov](https://www.linkedin.com/in/yivanov/), [Wojciech Matusik](https://cdfg.mit.edu/wojciech)
+> MIT CSAIL, Amazon Robotics, University of British Columbia\
+> **International Conference on Robotics and Automation (ICRA), 2025**
 
 A big shoutout to the [Nvidia Warp team](https://nvidia.github.io/warp/)! Warp integrates effortlessly with Torch, streamlining the use of differentiable simulation for Torch-based optimization workflows.
 
@@ -46,10 +51,10 @@ python render_usd.py --usd-path experiments/log/robotis_2_hard_ball/open_manipul
 
 ## If this helps you, please consider citing the paper below.
 ```
-@misc{chen2024learningobjectpropertiesusing,
+@misc{chen2025learningobjectpropertiesusing,
       title={Learning Object Properties Using Robot Proprioception via Differentiable Robot-Object Interaction}, 
       author={Peter Yichen Chen and Chao Liu and Pingchuan Ma and John Eastman and Daniela Rus and Dylan Randle and Yuri Ivanov and Wojciech Matusik},
-      year={2024},
+      year={2025},
       eprint={2410.03920},
       archivePrefix={arXiv},
       primaryClass={cs.RO},
