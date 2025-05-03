@@ -5,7 +5,7 @@
 This repository is the official implementation of the paper:
 
 > **[Learning Object Properties Using Robot Proprioception via Differentiable Robot-Object Interaction]([https://arxiv.org/abs/2206.02607](https://arxiv.org/abs/2410.03920))**  
-> [Peter Yichen Chen](https://peterchencyc.com), [Chao Liu](https://chaoliu.tech), [Pingchuan Ma](https://pingchuan.ma), [John Eastman](http://redsweatshirt.github.io), [Daniela Rus](https://danielarus.csail.mit.edu), [Dylan Randle](https://dylanrandle.github.io), [Yuri Ivanov](https://www.linkedin.com/in/yivanov/), [Wojciech Matusik](https://cdfg.mit.edu/wojciech)
+> [Peter Yichen Chen](https://peterchencyc.com), [Chao Liu](https://chaoliu.tech), [Pingchuan Ma](https://pingchuan.ma), [John Eastman](http://redsweatshirt.github.io), [Daniela Rus](https://danielarus.csail.mit.edu), [Dylan Randle](https://dylanrandle.github.io), [Yuri Ivanov](https://www.linkedin.com/in/yivanov/), [Wojciech Matusik](https://cdfg.mit.edu/wojciech)\
 > MIT CSAIL, Amazon Robotics, University of British Columbia\
 > **International Conference on Robotics and Automation (ICRA), 2025**
 
